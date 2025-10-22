@@ -8,6 +8,7 @@ version = "0.1.0"
 dependencies = [
  "crossterm",
  "num",
+ "position-derive",
  "rand",
 ]
 
@@ -198,6 +199,14 @@ dependencies = [
  "redox_syscall",
  "smallvec",
  "windows-link",
+]
+
+[[package]]
+name = "position-derive"
+version = "0.1.0"
+dependencies = [
+ "quote",
+ "syn",
 ]
 
 [[package]]

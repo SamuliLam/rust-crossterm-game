@@ -1,6 +1,5 @@
-use std::fmt::{write, Display, Formatter};
+use std::fmt::{Display, Formatter};
 use std::ops::Range;
-use position_derive::Position;
 use rand::distributions::{Distribution, Standard};
 use rand::distributions::uniform::SampleUniform;
 use rand::prelude::ThreadRng;

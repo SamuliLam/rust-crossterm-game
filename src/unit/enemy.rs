@@ -21,9 +21,6 @@ impl Enemy {
             speed: s,
         }
     }
-    pub fn position(&self) -> &Point2d<f64>{
-        &self.position
-    }
 
     pub fn move_towards_player(&mut self, player: &Player) {
         let direction = (player.position() - self.position).normalize();

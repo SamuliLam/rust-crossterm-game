@@ -180,7 +180,10 @@ pub struct PlayerBuilder {
 
 impl PlayerBuilder {
     pub fn new() -> PlayerBuilder {
-        PlayerBuilder::default()
+        PlayerBuilder {
+            position: { Point2d {x: 1.0, y: 1.0} },
+            ..Default::default()
+        }
     }
 
     pub fn speed(mut self, s: f64) -> PlayerBuilder {

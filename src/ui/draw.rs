@@ -3,7 +3,6 @@ use crate::{
 };
 use std::{fmt::Display, io::Write};
 
-use crossterm::style::Stylize;
 use num::{traits::NumAssign, NumCast};
 
 // this is only an example, modify it to your needs or remove entirely

@@ -1,6 +1,6 @@
 use std::{
     io::{stdout, Stdout, Write},
-    time::{Duration, Instant},
+    time::{Duration},
 };
 
 use rand::rngs::ThreadRng;

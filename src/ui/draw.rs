@@ -1,6 +1,5 @@
 use crate::{
     traits::Position,
-    unit::{Collectible, Enemy, Player, Wall},
 };
 use std::{fmt::Display, io::Write};
 
